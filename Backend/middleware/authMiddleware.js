@@ -1,5 +1,7 @@
 import jwt from "jsonwebtoken";
 
+// QueueIt authentication middleware
+
 const authMiddleware = (req, res, next) => {
   try {
     const token = req.headers.authorization?.split(" ")[1];
