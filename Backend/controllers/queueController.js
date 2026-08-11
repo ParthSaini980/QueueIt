@@ -1,4 +1,4 @@
-import Queue from "../Queue.js";
+import Queue from "../models/Queue.js";
 
 export const createQueue = async (req, res) => {
   try {
