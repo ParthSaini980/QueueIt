@@ -16,3 +16,4 @@ router.post("/serve", authMiddleware, serveNext);
 router.get("/:queueId", getQueue);
 
 export default router;
+ 
